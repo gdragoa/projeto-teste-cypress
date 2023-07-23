@@ -1,5 +1,5 @@
-describe('order try', () => {
-  it('passes', () => {
+describe('Event Registration', () => {
+  it('register user for event', () => {
 
     const baseUrl = Cypress.env('base_url')
 
@@ -7,7 +7,6 @@ describe('order try', () => {
     const documentType = Cypress.env('user_document_type')
     const documentNumber = Cypress.env('user_document_number')
     const email = Cypress.env('user_email')
-
 
     cy.visit(baseUrl);
 
