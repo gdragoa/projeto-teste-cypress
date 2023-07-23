@@ -1,18 +1,12 @@
 {
   "name": "projeto-teste-cypress",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },
-  "keywords": [],
   "dependencies": {
     "cypress": "^12.17.2"
   },
   "version": "1.0.0",
-  "main": "cypress.config.js",
-  "devDependencies": {},
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
