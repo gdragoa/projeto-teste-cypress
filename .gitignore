@@ -1,0 +1,12 @@
+# Arquivos e diretórios específicos do Node.js
+node_modules/
+npm-debug.log
+
+# Arquivos do Cypress
+cypress/videos/
+cypress/screenshots/
+cypress.env.json
+cypress/downloads/
+
+# Arquivos específicos do macOS
+.DS_Store
