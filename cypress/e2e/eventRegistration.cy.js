@@ -1,4 +1,5 @@
 describe('Event Registration', () => {
+
   it('register user for event', () => {
 
     const baseUrl = Cypress.env('base_url')
